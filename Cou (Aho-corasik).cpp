@@ -143,7 +143,6 @@ int main()
         {
             string s;
             cin>>x;
-            assert(x>0);
             s=to_string(x);
             //while(s.size()!=19)s='0'+s;
             insertword(s,i);
@@ -151,8 +150,6 @@ int main()
         push_links();
         string s1,s2;
         cin>>l>>r;
-        assert(l<=r);
-        assert(l>0&&r>0);
         s2=to_string(r);
         l--;
         s1=to_string(l);
